@@ -317,9 +317,9 @@ export default function PoliticalParties() {
       leader: "Natalia Parasca",
       parliamentSeats: 4,
       spectrum: {
-        en: "Left-wing",
-        ro: "Stânga",
-        ru: "Левые"
+        en: "Right-wing",
+        ro: "Dreapta",
+        ru: "Правые"
       },
       description: {
         en: "The 'Renaștere-Revival' party aims to establish a social state focused on supporting motherhood, youth, and vulnerable groups. The main priorities include maintaining Moldova's permanent neutrality, pursuing Eurasian integration, and fostering strategic cooperation with Russia. The party emphasizes traditional values such as family and Orthodox faith, aiming for economic development and social justice. Special attention is given to harmony in interethnic relations and safeguarding sovereignty.",
@@ -376,9 +376,9 @@ export default function PoliticalParties() {
       leader: "Ion Ceban",
       parliamentSeats: 1,
       spectrum: {
-        en: "Centre-left",
-        ro: "Centru-stânga",
-        ru: "Центр-левые"
+        en: "Centre-right",
+        ro: "Centru-dreapta",
+        ru: "Центристско-правые"
       },
       description: {
         en: "The MAN (National Alliance of Moldova) party aims to modernize the Republic of Moldova, supporting European integration and social-democratic principles. Key priorities include improving quality of life, building a sustainable economy, developing social infrastructure, strengthening justice, and national security. MAN also backs educational reforms, environmental protection, and transparent governance, focusing on anti-corruption efforts and diaspora participation in the country's development. The party advocates for Moldova's reunification and the reintegration of Transnistria.",
@@ -434,9 +434,9 @@ export default function PoliticalParties() {
       leader: "Renato Usatîi",
       parliamentSeats: 0,  // As of the latest elections
       spectrum: {
-        en: "Centre-left, Populist",
-        ro: "Centru-stânga, Populist",
-        ru: "Центр-левые, Популистские"
+        en: "Centre-left",
+        ro: "Centru-stânga",
+        ru: "Центристско-левые"
       },
       description: {
         en: "The 'Partidul Nostru' of Moldova seeks to modernize the country by addressing systemic issues in governance, economy, and social welfare. They advocate for combating corruption, revitalizing the local industry, promoting fair justice, and decentralizing administration.\n\nTheir agenda emphasizes strengthening agriculture, supporting education, protecting the environment, and ensuring social protection. Their goal is to establish Moldova's independent development path with pragmatic policies, prioritizing national interests.",
@@ -620,9 +620,9 @@ export default function PoliticalParties() {
       leader: "Boris Volosatîi",
       parliamentSeats: 0,  // As of the latest elections
       spectrum: {
-        en: "Right-wing, Nationalist",
-        ro: "Dreapta, Naționalist",
-        ru: "Правые, Националистические"
+        en: "Extreme Right-wing",
+        ro: "Extremă dreaptă",
+        ru: "Крайне правые"
       },
       description: {
         en: "The 'Alianța pentru Unirea Românilor' (AUR) party advocates for the unification of Romania and Moldova, aiming to correct historical injustices. Their platform emphasizes Romanian identity, Euro-Atlantic integration, and eliminating procedural barriers for reunification. They seek to harmonize legislation and strengthen Romanian governance across both countries, promoting shared infrastructure and economic development.",
@@ -686,9 +686,9 @@ export default function PoliticalParties() {
       leader: "Dorin Chirtoacă",
       parliamentSeats: 0,  // As of the latest elections
       spectrum: {
-        en: "Centre-right",
-        ro: "Centru-dreapta",
-        ru: "Центристско-правые"
+        en: "Right-wing",
+        ro: "Dreapta",
+        ru: "Правые"
       },
       description: {
         en: "A right-wing party anchored in European liberalism, advocating for individual rights, democracy, the rule of law, and a free-market economy. The party prioritizes the reunification of Moldova with Romania and European integration.",
@@ -742,9 +742,9 @@ export default function PoliticalParties() {
       leader: "Anatolie Prohnițchi",
       parliamentSeats: 0,  // As of the latest elections
       spectrum: {
-        en: "Centre-left, Green politics",
-        ro: "Centru-stânga, Politici verzi",
-        ru: "Центр-левые, Зелёная политика"
+        en: "Centre-left",
+        ro: "Centru-stânga",
+        ru: "Центристско-левые"
       },
       description: {
         en: "The Green Ecologist Party of Moldova is focused on environmental sustainability, social justice, and promoting non-violence. It emphasizes the need for policies that protect biodiversity, combat climate change, and support sustainable resource management. The party also advocates for social equity, gender equality, and extensive democracy, with a commitment to non-violence and human rights.",
@@ -809,9 +809,9 @@ export default function PoliticalParties() {
       leader: "Vitalia Pavlicenco",
       parliamentSeats: 0,  // As of the latest elections
       spectrum: {
-        en: "Centre-right, National liberalism",
-        ro: "Centru-dreapta, Liberalism național",
-        ru: "Центр-правые, Национальный либерализм"
+        en: "Right-wing",
+        ro: "Dreapta",
+        ru: "Правые"
       },
       description: {
         en: "The National Liberal Party (PNL) of Moldova emphasizes the importance of Romanian identity, democracy, and integration into NATO and the EU. The party aims for economic modernization, social justice, and a firm stance on national security. PNL advocates for the unification of Moldova with Romania, emphasizing shared cultural and historical heritage while pursuing Western-oriented reforms.",
@@ -848,9 +848,9 @@ export default function PoliticalParties() {
       leader: "Ion Chicu",
       parliamentSeats: 0,  // As of the latest elections
       spectrum: {
-        en: "Centre",
-        ro: "Centru",
-        ru: "Центр"
+        en: "Centre-right",
+        ro: "Centru-dreapta",
+        ru: "Центристско-правые"
       },
       description: {
         en: "The PDCM aims to unite Moldova's citizens around common national goals, promoting European integration, strengthening democratic institutions, and fostering economic development. The party seeks pragmatic professionals and intellectuals to take a leading role in revitalizing the country's social, economic, and political life.",
