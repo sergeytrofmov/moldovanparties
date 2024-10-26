@@ -33,45 +33,12 @@ const XLogo = ({ className = "", size = 24 }) => (
   </svg>
 );
 
-const ParliamentIcon = ({ className = "", size = 16 }) => (
-  <svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    width={size} 
-    height={size} 
-    viewBox="0 0 24 24" 
-    fill="none" 
-    stroke="currentColor" 
-    strokeWidth="2" 
-    strokeLinecap="round" 
-    strokeLinejoin="round" 
-    className={className}
-  >
-    {/* Outer arc of seats */}
-    <path d="M4 16C4 16 7 13 12 13C17 13 20 16 20 16" />
-    {/* Middle arc of seats */}
-    <path d="M6 13C6 13 9 10 12 10C15 10 18 13 18 13" />
-    {/* Inner arc of seats */}
-    <path d="M8 10C8 10 10 8 12 8C14 8 16 10 16 10" />
-    {/* Small dots representing seats */}
-    <circle cx="12" cy="13" r="1" fill="currentColor" />
-    <circle cx="8" cy="14" r="1" fill="currentColor" />
-    <circle cx="16" cy="14" r="1" fill="currentColor" />
-    <circle cx="10" cy="11" r="1" fill="currentColor" />
-    <circle cx="14" cy="11" r="1" fill="currentColor" />
-  </svg>
-);
-
-
 type LanguageContextType = {
   language: string;
   setLanguage: (lang: string) => void;
 };
 
-type ProgramDocument = {
-  title: string; // Static title in the document's original language
-  language: 'en' | 'ro' | 'ru';
-  url: string;
-}
+
 
 const LanguageContext = createContext<LanguageContextType>({
   language: 'ru',
@@ -163,29 +130,7 @@ export default function PoliticalParties() {
       programs: "Документы",
     },
   };
-
-  const ChairIcon = ({ className = "", size = 16 }) => (
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      width={size} 
-      height={size} 
-      viewBox="0 0 24 24" 
-      fill="none" 
-      stroke="currentColor" 
-      strokeWidth="2" 
-      strokeLinecap="round" 
-      strokeLinejoin="round" 
-      className={className}
-    >
-      <path d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3" />
-      <path d="M5 18V9h14v9" />
-      <path d="M8 18h8" />
-      <path d="M9 9V6" />
-      <path d="M15 9V6" />
-    </svg>
-  );
   
-
   // Parties data
   const parties = [
     {
