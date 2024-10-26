@@ -2,26 +2,245 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+
+@keyframes expandWidth {
+  from {
+    width: 33.333%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes contractWidth {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 33.333%;
+  }
+}
+
+.expand {
+  animation: expandWidth 700ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.contract {
+  animation: contractWidth 700ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes expandWidth {
+  from {
+    width: 100%;
+    transform: scale(1);
+  }
+  to {
+    width: 100%;
+    transform: scale(1);
+  }
+}
+
+@keyframes contractWidth {
+  from {
+    width: 100%;
+    transform: scale(1);
+  }
+  to {
+    width: 100%;
+    transform: scale(0.95);
+  }
+}
+
+.expand {
+  animation: expandWidth 700ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.contract {
+  animation: contractWidth 700ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.card-expanding {
+  transition: width 700ms cubic-bezier(0.4, 0, 0.2, 1),
+              transform 700ms cubic-bezier(0.4, 0, 0.2, 1),
+              grid-column 700ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes expandWidth {
+  from {
+    width: 33.333%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes contractWidth {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 33.333%;
+  }
+}
+
+.expand-animation {
+  animation: expandWidth 700ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.contract-animation {
+  animation: contractWidth 700ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+* {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+@layer components {
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding: 0 2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding: 0 4rem;
+    }
+  }
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .transform-gpu {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+}
+
+.expanded-card {
+  transform-origin: center center;
+  transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@layer utilities {
+  .transition-smooth {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .transition-width {
+    transition-property: width;
+    transition-duration: 700ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .transition-height {
+    transition-property: max-height, opacity;
+    transition-duration: 700ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.card-container {
+  width: 100%;
+  transition: width 700ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-container.expanded {
+  width: calc(100% - 2rem);
+}
+
+@media (min-width: 640px) {
+  .card-container.expanded {
+    width: calc(200% - 1rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-container.expanded {
+    width: calc(300% - 2rem);
+  }
+}
+
+@layer utilities {
+  .expanded-enter {
+    width: 100%;
+    transition: width 700ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .expanded-enter-active {
+    width: calc(100vw - 4rem);
+  }
+  
+  .expanded-exit {
+    width: calc(100vw - 4rem);
+    transition: width 700ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .expanded-exit-active {
+    width: 100%;
   }
 }
