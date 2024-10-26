@@ -2,7 +2,7 @@
 
 import { useState, createContext, useContext } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { ChevronDown, ChevronUp, Globe, Facebook, X, Instagram, Youtube } from "lucide-react"
+import { ChevronDown, Globe, Facebook, Instagram, Youtube } from "lucide-react" // removed ChevronUp and X
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -16,7 +16,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 import { Button } from "@/components/ui/button"
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion" // removed AnimatePresence since it's not used
 
 const XLogo = ({ className = "", size = 24 }) => (
   <svg 
