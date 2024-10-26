@@ -270,7 +270,7 @@ export default function PoliticalParties() {
         ro: "Partidul Comuniștilor din Republica Moldova (PCRM) se consideră un partid al intereselor viitoare ale întregii societăți. Programul subliniază diversitatea socială, națională și politică, oferind individului libertatea de alegere și condiții pentru auto-realizare. PCRM este dedicat luptei împotriva sărăciei și asigurării ca bogăția să fie derivată din venituri oneste, nu din exploatare și corupție. Partidul militează pentru egalitatea condițiilor, justiție socială și control democratic eficient asupra statului. Politicile sale prioritizează investițiile sociale, modernizarea economică și o democrație multietajată bazată pe transparență și responsabilitate. PCRM susține, de asemenea, neutralitatea, integritatea teritorială și deschiderea pentru integrarea Moldovei, vizând un stat competitiv cu un standard de viață ridicat și o democrație dezvoltată.",
         ru: "Партия коммунистов Республики Молдова (ПКРМ) считает себя партией перспективных интересов всего общества. Программа подчеркивает социальное, национальное и политическое разнообразие, предоставляя личности свободу выбора и условия для самореализации. ПКРМ борется с бедностью и за то, чтобы богатство было результатом честного дохода, а не эксплуатации и коррупции. Партия выступает за равенство условий, социальную справедливость и действенный демократический контроль над государством. Политика партии включает приоритетные социальные инвестиции, экономическую модернизацию и многоуровневую демократию, основанную на прозрачности и подотчетности. ПКРМ поддерживает нейтралитет, территориальную целостность и интеграционную открытость Молдовы, стремясь к конкурентоспособному государству с высоким уровнем жизни и развитой демократией."
     },
-      logoUrl: "/parties/communists.svg",
+      logoUrl: "/parties/communists.png",
       leaderImageUrl: "/leaders/voronin.jpg",
       leaderImageSource: "https://pcrm.md/md/organele_de_conducere/vladimir_voronin",
       keyPolicies: {
@@ -443,7 +443,7 @@ export default function PoliticalParties() {
         ro: "Partidul 'Nostru' din Moldova urmărește modernizarea țării prin abordarea problemelor sistemice din guvernare, economie și asistență socială. Ei pledează pentru combaterea corupției, revitalizarea industriei locale, promovarea justiției corecte și descentralizarea administrației.\n\nAgenda lor pune accent pe întărirea agriculturii, susținerea educației, protejarea mediului și asigurarea protecției sociale. Scopul lor este de a stabili calea independentă de dezvoltare a Moldovei, cu politici pragmatice, prioritizând interesele naționale.",
         ru: "Партия 'Наша' Молдовы стремится модернизировать страну, решая системные проблемы в управлении, экономике и социальной защите. Они выступают за борьбу с коррупцией, возрождение местной промышленности, справедливую юстицию и децентрализацию управления.\n\nИх повестка дня подчеркивает укрепление сельского хозяйства, поддержку образования, защиту окружающей среды и социальную защиту. Их цель - установить независимый путь развития Молдовы с прагматичными политиками, отдающими приоритет национальным интересам."
       },
-      logoUrl: "/parties/partidul-nostru.svg",
+      logoUrl: "/parties/partidul-nostru.png",
       leaderImageUrl: "/leaders/usatii.jpg",
       leaderImageSource: "http://ru1.md",
       keyPolicies: {
@@ -629,7 +629,7 @@ export default function PoliticalParties() {
         ro: "Partidul 'Alianța pentru Unirea Românilor' (AUR) pledează pentru unirea României și Republicii Moldova, având scopul de a corecta nedreptățile istorice. Platforma lor subliniază identitatea românească, integrarea euro-atlantică și eliminarea barierelor procedurale pentru reunificare. Ei doresc armonizarea legislației și întărirea guvernării românești în ambele țări, promovând infrastructura comună și dezvoltarea economică.",
         ru: "Партия 'Альянс за объединение румын' (AUR) выступает за объединение Румынии и Молдовы, с целью исправления исторической несправедливости. Их платформа подчеркивает румынскую идентичность, евроатлантическую интеграцию и устранение процедурных барьеров для воссоединения. Они стремятся гармонизировать законодательство и укрепить румынское управление в обеих странах, продвигая совместную инфраструктуру и экономическое развитие."
       },
-      logoUrl: "/parties/aur.svg",
+      logoUrl: "/parties/aur.png",
       leaderImageUrl: "/leaders/volosatii.jpg",
       leaderImageSource: "https://facebook.com",
 
