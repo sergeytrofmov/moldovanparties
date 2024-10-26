@@ -443,7 +443,7 @@ export default function PoliticalParties() {
         ro: "Partidul 'Nostru' din Moldova urmărește modernizarea țării prin abordarea problemelor sistemice din guvernare, economie și asistență socială. Ei pledează pentru combaterea corupției, revitalizarea industriei locale, promovarea justiției corecte și descentralizarea administrației.\n\nAgenda lor pune accent pe întărirea agriculturii, susținerea educației, protejarea mediului și asigurarea protecției sociale. Scopul lor este de a stabili calea independentă de dezvoltare a Moldovei, cu politici pragmatice, prioritizând interesele naționale.",
         ru: "Партия 'Наша' Молдовы стремится модернизировать страну, решая системные проблемы в управлении, экономике и социальной защите. Они выступают за борьбу с коррупцией, возрождение местной промышленности, справедливую юстицию и децентрализацию управления.\n\nИх повестка дня подчеркивает укрепление сельского хозяйства, поддержку образования, защиту окружающей среды и социальную защиту. Их цель - установить независимый путь развития Молдовы с прагматичными политиками, отдающими приоритет национальным интересам."
       },
-      logoUrl: "/parties/partidul-nostru.svg",
+      logoUrl: "/parties/Partidul-Nostru.svg",
       leaderImageUrl: "/leaders/usatii.jpg",
       leaderImageSource: "http://ru1.md",
       keyPolicies: {
@@ -629,7 +629,7 @@ export default function PoliticalParties() {
         ro: "Partidul 'Alianța pentru Unirea Românilor' (AUR) pledează pentru unirea României și Republicii Moldova, având scopul de a corecta nedreptățile istorice. Platforma lor subliniază identitatea românească, integrarea euro-atlantică și eliminarea barierelor procedurale pentru reunificare. Ei doresc armonizarea legislației și întărirea guvernării românești în ambele țări, promovând infrastructura comună și dezvoltarea economică.",
         ru: "Партия 'Альянс за объединение румын' (AUR) выступает за объединение Румынии и Молдовы, с целью исправления исторической несправедливости. Их платформа подчеркивает румынскую идентичность, евроатлантическую интеграцию и устранение процедурных барьеров для воссоединения. Они стремятся гармонизировать законодательство и укрепить румынское управление в обеих странах, продвигая совместную инфраструктуру и экономическое развитие."
       },
-      logoUrl: "/parties/aur.svg",
+      logoUrl: "/parties/AUR.svg",
       leaderImageUrl: "/leaders/volosatii.jpg",
       leaderImageSource: "https://facebook.com",
 
